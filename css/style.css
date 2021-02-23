@@ -10,14 +10,14 @@
   text-align: center;
 }
 
-.inner_header{
+.inner_header {
   position: fixed;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.header_icon{
+.header_icon {
   max-width: 1100px;
   display: flex;
   align-items: center;
@@ -26,12 +26,12 @@
   margin:auto;
 }
 
-.icon_bolt{
+.icon_bolt {
   color: #4e4e4e;
   font-size: 30px;
 }
 
-.Contact_buttom{
+.Contact_buttom {
   font-size: 12px;
   color: #fff;
   padding-top: 14px;
@@ -42,37 +42,37 @@
   cursor: pointer;
 }
 
-.Contact_buttom:hover{
+.Contact_buttom:hover {
   color: #333;
 }
 
-.header_buttom{
+.header_buttom {
   width: 50px;
   padding: 14px 12px;
 }
 
 /* <Bolt Theme> */
 
-.title_Bolt_Theme{
+.title_Bolt_Theme {
   background-color: #f2f2f2;
 }
 
-.inner_title_Bolt_Theme{
+.inner_title_Bolt_Theme {
   width: 100vw;
   height: 640px;
 }
 
-.Words_title_Bolt_Theme{
+.Words_title_Bolt_Theme {
   padding: 250px 0;
 }
 
-.Maintext_title_Bolt_Theme{
+.Maintext_title_Bolt_Theme {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 
-.Subtext_Bolt_Theme{
+.Subtext_Bolt_Theme {
   padding-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
@@ -97,8 +97,8 @@
   color: #fff;
 }
 
-.Words_what_we_can_do{
-  width: 60%;
+.Words_what_we_can_do {
+  width: 72%;
 }
 
 .Maintext_title_what_we_can_do,.Maintext_OUR_LATEST_WORK{
@@ -109,9 +109,8 @@
 .Subtext_what_we_can_do {
   font-size: 20px;
   padding-top: 35px;
-  word-break: keep-all;
   font-family: "Lato";
-
+  text-align:center;
 }
 
 .picture_what_we_can_do {
@@ -121,49 +120,51 @@
 
 /* <OUR LATEST WORK> */
 
-.inner_title_OUR_LATEST_WORK{
+.title_our_latest_work {
+  background-color: #f2f2f2;
+}
+
+.inner_title_OUR_LATEST_WORK {
+  margin: auto;
+}
+.Maintext_OUR_LATEST_WORK {
+  padding-top: 60px;
+}
+
+.items_wrapper {
+  max-width: 1200px;
   margin: auto;
 }
 
-.Maintext_OUR_LATEST_WORK {
-  padding: 60px 0 40px 0;
-}
-
-
-.items_OUR_LATEST_WORK{
+.items_OUR_LATEST_WORK {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.item{
-  padding-right: 100px;
+.item {
+  padding: 40px 50px ;
   opacity: 0.7;
   transition: 0.3s all;
   cursor: pointer;
 }
 
-.item:hover{
+.item:hover {
   opacity: 1;
 }
 
-.item:nth-child(3n){
-  flex-wrap: wrap;
-}
-
-
-.Sub_contents{
+.Sub_contents {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Subtext_OUR_LATEST_WORK{
-  padding: 90px 90px 70px 0;
-  width: 35%;
+.Subtext_OUR_LATEST_WORK {
+  padding: 50px 90px 70px 0;
+  width: 27%;
   font-family: "Lato";
 }
 
-.Email_buttom{
+.Email_buttom {
   width: 100px;
   height: 10px;
   padding: 14px 20px ;
@@ -171,7 +172,7 @@
 
 /* <OUR SKILLS> */
 
-.inner_our_skills{
+.title_our_skills {
   background-color: #4e4e4e;
 }
 
@@ -180,60 +181,68 @@
   font-family: "Lato";
 }
 
-.Maintext_our_skills{
-  padding-top: 70px;
+.Maintext_our_skills {
+  padding: 70px 0;
   font-size: 24px;
-  padding-bottom: 70px;
-  
 }
 
-.items_our_skills{
+.items_our_skills {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.item_our_skills{
-  margin: 0 90px ;
+.item_our_skills {
+  padding: 0 90px ;
 }
 
-.item_our_skills_Subtext{
+.item_our_skills_Subtext {
   color: #f2f2f2;
   font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 100px;
+  padding: 10px 0 100px 0;
 }
 
 /* sns_icons */
 
-.inner_sns_icons{
-  margin: 200px 0;
-  /* background-color: #c0c0c0; */
+.inner_sns_icons {
+  background-color: #f2f2f2;
 }
 
-.sns_icons{
+.sns_icons {
   display: flex;
 }
 
 .sns_icon {
+  margin: 200px 0;
   color: #74cfae;
   width: 185px;
+  height: 90px;
   font-size: 40px;
+  line-height:90px;
+
+  transition: 0.3s all;
+  cursor: pointer;
 }
 
-.inner_footer{
+.sns_icon:hover {
+  background-color: #fff;
+}
+
+/* footer */
+
+.inner_footer {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
 }
 
-.footer_text{
+.footer_text {
   max-width: 1100px;
   margin: auto;
 }
 
-.author_name{
+.author_name {
   font-size: 12px;
   color: #fff;
   text-align: right;
 }
+
