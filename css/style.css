@@ -5,10 +5,10 @@
   color: #333;
 }
 
-img {
-  /* max-width: 100%;
-  height: auto; */
-  vertical-align: top;
+
+
+main{
+  padding-top: 70px;
 }
 
 .inner {
@@ -70,7 +70,7 @@ img {
 }
 
 .Words_title_Bolt_Theme {
-  padding: 320px 0 250px 0;
+  padding: 250px 0 ;
 }
 
 h1 {
@@ -80,8 +80,8 @@ h1 {
   color: #74cfae;
 }
 
-h2 {
-  padding-top: 20px;
+.Sub_text_Bolt_Theme {
+  margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
 }
@@ -93,78 +93,83 @@ h2 {
 }
 
 .inner_title_what_we_can_do {
-  max-width: 1100px;
+  width: 1100px;
   margin:auto;
+  
+  /* padding-top: 50px; */
+}
+
+.flex_inner{
   display: flex;
-  flex-direction : row-reverse;
-  align-items: center;
-  justify-content: center;
 }
 
-.Words_what_we_can_do {
-  width: 60%;
+.picture_what_we_can_do {
+  font-size: 0px;
+  width: 50%;
+  padding-top: 50px;
 }
 
-h3 {
-  color: #f2f2f2;
+h2 {
   font-size: 24px;
   font-family: "Raleway";
 }
 
-h4 {
+.Words_what_we_can_do {
   color: #f2f2f2;
-  font-size: 20px;
-  padding-top: 35px;
-  text-align:center;
+  margin: auto;
+  width: 60%;
 }
 
-.picture_what_we_can_do {
-  padding-top: 50px;
-  width: 50%;
+
+.Sub_text_WHAT_WE_CAN {
+  font-size: 20px;
+  margin-top: 35px;
+  /* text-align:center; */
 }
-.picture_what_we_can_do {
-  display: inline-block;
-}
+
+
 
 /* <OUR LATEST WORK> */
 
 .title_our_latest_work {
   background-color: #f2f2f2;
+  margin: auto;
 }
 
 .inner_title_OUR_LATEST_WORK {
-  margin: auto;
-}
 
-h5 {
-  font-size: 24px;
-  font-family: "Raleway";
-  padding-top: 60px;
   color: #333;
-}
-
-.items_wrapper {
-  max-width: 1100px;
+  width: 1100px;
   margin: auto;
 }
+
+.Maintitle_OUR_LATEST_WORK{
+  margin: 60px 0 40px 0;
+}
+
 
 .items_OUR_LATEST_WORK {
   display: flex;
   flex-wrap: wrap;
 }
 
-.item {
-  margin: 40px 100px 40px 0 ;
+.items_OUR_LATEST_WORK li {
+  display: inline;
+  margin: 80px 0 0 100px ;
   opacity: 0.7;
   transition: 0.3s all;
   cursor: pointer;
 }
 
-.item:nth-child(3n) {
-  margin-right: 0;
+.items_OUR_LATEST_WORK li:nth-child(-n+3) {
+  margin-top: 0;
 }
 
-.item:hover {
+.items_OUR_LATEST_WORK li:nth-child(3n-2){
+  margin-left: 0;
+}
+
+.items_OUR_LATEST_WORK li:hover {
   opacity: 1;
 }
 
@@ -177,9 +182,8 @@ h5 {
 
 .Subtext_OUR_LATEST_WORK {
   color: #333;
-  padding: 50px 90px 70px 0;
-  width: 32%;
-  
+  margin: 90px 90px 70px 0;
+  width: 48%;
 }
 
 .Email_buttom {
@@ -191,53 +195,69 @@ h5 {
 
 .title_our_skills {
   background-color: #4e4e4e;
+  overflow: hidden;
 }
 
 .inner_our_skills p {
   color: #f2f2f2;
 }
 
-h6 {
+h3 {
   color: #f2f2f2;
   font-family: "Raleway";
-  padding: 70px 0;
   font-size: 24px;
+  margin: 70px 0;
 }
 
-.items_our_skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.items_our_skills li {
+  display: inline-block;
+  
+  /* justify-content: center;
+  align-items: center; */
 }
 
-.item_our_skills {
-  padding: 0 90px ;
+.items_our_skills li {
+  margin-left: 180px ;
+}
+
+.items_our_skills li:first-child{
+  margin-left: 0;
 }
 
 .item_our_skills_Subtext {
   color: #f2f2f2;
   font-size: 16px;
-  padding: 10px 0 100px 0;
+  margin: 10px 0 100px 0;
 }
 
 /* sns_icons */
 
 .inner_sns_icons {
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .sns_wrapper {
-  padding: 200px 0;
+  margin: 200px 0;
+  /* display: inline-block; */
 }
 
-.sns_icons {
+.sns_incon_list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.sns_incon_list li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 
 .sns_icon {
   color: #74cfae;
   width: 185px;
-  height: 90px;
   font-size: 40px;
   line-height:90px;
 
