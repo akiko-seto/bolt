@@ -3,7 +3,7 @@
 .body {
   font-family: "Lato";
   color: #333;
-  /* width: 100%; */
+  width: 100%;
 }
 
 main{
@@ -14,11 +14,11 @@ main{
   width: 1100px;
   margin: auto;
   text-align: center;
-  /* overflow: hidden; */
 }
 
 .title_header {
   position: fixed;
+  width: 100%;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -28,9 +28,7 @@ main{
 .header_icon {
   max-width: 1100px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  /* box-sizing: border-box; */
 }
 
 .icon_bolt {
@@ -44,9 +42,7 @@ main{
   padding-top: 14px;
   padding-bottom:12px;
   background-color: #74cfae;
-
   transition: 0.3s all;
-  cursor: pointer;
 }
 
 .Contact_buttom:hover {
@@ -61,6 +57,7 @@ main{
 /* <Bolt Theme> */
 
 .title_Bolt_Theme{
+  width: 100%;
   background-color: #f2f2f2;
   padding: 250px 0 ;
 }
@@ -81,7 +78,9 @@ h1 {
 /* <WHAT WE CAN DO?> */
 
 .title_what_we_can_do {
+  width: 100%;
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .flex_inner{
@@ -91,7 +90,6 @@ h1 {
 .picture_what_we_can_do {
   font-size: 0px;
   width: 50%;
-  padding-top: 50px;
 }
 
 h2 {
@@ -101,7 +99,7 @@ h2 {
 
 .Words_what_we_can_do {
   color: #f2f2f2;
-  margin: auto;
+  margin-top: 50px;
   width: 60%;
 }
 
@@ -113,6 +111,7 @@ h2 {
 /* <OUR LATEST WORK> */
 
 .title_our_latest_work {
+  width: 100%;
   background-color: #f2f2f2;
   padding-top: 60px;
 
@@ -131,7 +130,6 @@ h2 {
   margin: 80px 0 0 100px ;
   opacity: 0.7;
   transition: 0.3s all;
-  cursor: pointer;
 }
 
 .items_OUR_LATEST_WORK li:nth-child(-n+3) {
@@ -148,9 +146,8 @@ h2 {
 
 .Sub_contents {
   display: flex;
-  align-items: center;
   justify-content: center;
- 
+  vertical-align: top;
   padding: 90px 0 70px 0
 }
 
@@ -168,6 +165,7 @@ h2 {
 /* <OUR SKILLS> */
 
 .title_our_skills{
+  width: 100%;
   background-color: #4e4e4e;
   padding-top: 70px;
   color: #f2f2f2;
@@ -175,6 +173,10 @@ h2 {
 }
 
 .item_our_skills {
+  margin-top: 70px;
+}
+
+.our_skills_wrapper {
   margin-top: 70px;
 }
 
@@ -190,7 +192,7 @@ h2 {
   margin-left: 0;
 }
 
-.item_our_skills_Subtext {
+.items_our_skills p {
   color: #f2f2f2;
   font-size: 16px;
   margin: 10px 0 100px 0;
@@ -198,7 +200,8 @@ h2 {
 
 /* sns_icons */
 
-.inner_sns_icons {
+.sns_wrapper {
+  width: 100%;
   background-color: #f2f2f2;
   padding: 200px 0;
 }
@@ -222,7 +225,6 @@ h2 {
   font-size: 40px;
   line-height:90px;
   transition: 0.3s all;
-  cursor: pointer;
 }
 
 .sns_icon:hover {
@@ -231,7 +233,7 @@ h2 {
 
 /* footer */
 
-.inner_footer {
+.footer_wrapper {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
 }
