@@ -3,6 +3,7 @@
 .body {
   font-family: "Lato";
   color: #333;
+  /* width: 100%; */
 }
 
 main{
@@ -10,12 +11,13 @@ main{
 }
 
 .inner {
-  width: 100%;
+  width: 1100px;
+  margin: auto;
   text-align: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.inner_header {
+.title_header {
   position: fixed;
   background-color: #fff;
   padding-top: 15px;
@@ -28,8 +30,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
-  margin:auto;
+  /* box-sizing: border-box; */
 }
 
 .icon_bolt {
@@ -59,13 +60,9 @@ main{
 
 /* <Bolt Theme> */
 
-.inner_title_Bolt_Theme{
+.title_Bolt_Theme{
   background-color: #f2f2f2;
   padding: 250px 0 ;
-}
-
-.title_Bolt_Theme {
-  width: 100%;
 }
 
 h1 {
@@ -83,13 +80,8 @@ h1 {
 
 /* <WHAT WE CAN DO?> */
 
-.inner_title_what_we_can_do  {
-  background-color: #74cfae;
-}
-
 .title_what_we_can_do {
-  width: 1100px;
-  margin:auto;
+  background-color: #74cfae;
 }
 
 .flex_inner{
@@ -120,22 +112,16 @@ h2 {
 
 /* <OUR LATEST WORK> */
 
-.inner_our_latest_work {
-  background-color: #f2f2f2;
-}
-
 .title_our_latest_work {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+
   color: #333;
-  width: 1100px;
   margin: auto;
 }
 
-.Maintitle_OUR_LATEST_WORK{
-  margin: 60px 0 40px 0;
-}
-
-
 .items_OUR_LATEST_WORK {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -164,36 +150,32 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: baseline;
+ 
   padding: 90px 0 70px 0
 }
 
 .Subtext_OUR_LATEST_WORK {
   color: #333;
-  margin-right: 90px;
   width: 48%;
 }
 
 .Email_buttom {
   height: 10px;
   padding: 14px 20px ;
+  margin-left: 90px;
 }
 
 /* <OUR SKILLS> */
 
-.inner_our_skills {
+.title_our_skills{
   background-color: #4e4e4e;
+  padding-top: 70px;
+  color: #f2f2f2;
+
 }
 
-.inner_our_skills p {
-  color: #f2f2f2;
-}
-
-h3 {
-  color: #f2f2f2;
-  font-family: "Raleway";
-  font-size: 24px;
-  margin: 70px 0;
+.item_our_skills {
+  margin-top: 70px;
 }
 
 .items_our_skills li {
