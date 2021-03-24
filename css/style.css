@@ -10,6 +10,10 @@ main{
   padding-top: 70px;
 }
 
+a {
+  display: inline-block;
+}
+
 .inner {
   width: 1100px;
   margin: auto;
@@ -25,8 +29,7 @@ main{
   z-index:9999;
 }
 
-.header_icon {
-  max-width: 1100px;
+.header_inner {
   display: flex;
   justify-content: space-between;
 }
@@ -43,6 +46,8 @@ main{
   padding-bottom:12px;
   background-color: #74cfae;
   transition: 0.3s all;
+
+  text-decoration: none;
 }
 
 .Contact_buttom:hover {
@@ -83,7 +88,7 @@ h1 {
   padding-top: 50px;
 }
 
-.flex_inner{
+.flex_inner {
   display: flex;
 }
 
@@ -113,7 +118,7 @@ h2 {
 .title_our_latest_work {
   width: 100%;
   background-color: #f2f2f2;
-  padding-top: 60px;
+  padding: 60px 0 70px 0;
 
   color: #333;
   margin: auto;
@@ -148,7 +153,7 @@ h2 {
   display: flex;
   justify-content: center;
   vertical-align: top;
-  padding: 90px 0 70px 0
+  margin-top: 90px;
 }
 
 .Subtext_OUR_LATEST_WORK {
@@ -167,7 +172,7 @@ h2 {
 .title_our_skills{
   width: 100%;
   background-color: #4e4e4e;
-  padding-top: 70px;
+  padding: 70px 0 100px 0;
   color: #f2f2f2;
 
 }
@@ -176,8 +181,8 @@ h2 {
   margin-top: 70px;
 }
 
-.our_skills_wrapper {
-  margin-top: 70px;
+.our_skills_inner {
+  margin-bottom: 70px;
 }
 
 .items_our_skills li {
@@ -188,14 +193,14 @@ h2 {
   margin-left: 180px ;
 }
 
-.items_our_skills li:first-child{
+.items_our_skills li:first-child {
   margin-left: 0;
 }
 
 .items_our_skills p {
   color: #f2f2f2;
   font-size: 16px;
-  margin: 10px 0 100px 0;
+  margin-top: 10px;
 }
 
 /* sns_icons */
@@ -211,13 +216,6 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
-.sns_incon_list li a {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
 
 .sns_icon {
   color: #74cfae;
@@ -236,11 +234,6 @@ h2 {
 .footer_wrapper {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
-}
-
-.footer_text {
-  max-width: 1100px;
-  margin: auto;
 }
 
 .author_name {
