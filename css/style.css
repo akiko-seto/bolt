@@ -17,7 +17,7 @@ a {
 }
 
 .inner {
-  width: auto;
+  width:  400px;
   margin: auto;
   text-align: center;
 }
@@ -159,11 +159,9 @@ h2 {
 
 .items_OUR_LATEST_WORK {
   display: block;
-  /* flex-direction: column; */
 }
 
 .items_OUR_LATEST_WORK li {
-  /* display: inline; */
   opacity: 0.7;
   transition: 0.3s all;
 }
@@ -181,6 +179,7 @@ h2 {
 }
 
 .Sub_contents {
+  font-family: "Raleway";
   justify-content: center;
   vertical-align: top;
   margin-top: 80px;
@@ -226,7 +225,6 @@ h2 {
 
 /* sns_icons */
 .sns_wrapper {
-  width: 100%;
   background-color: #f2f2f2;
   padding: 50px 0;
 }
@@ -266,9 +264,8 @@ h2 {
 @media screen and (min-width: 768px) {
 
 .inner {
-  width: 1100px;
-  margin: auto;
-  text-align: center;
+  width: 768px;
+
 }
 
 .header_buttom {
@@ -338,6 +335,9 @@ h1 {
 
 @media screen and (min-width: 1200px) {
 
+.inner {
+  width: 1100px;
+}
 
 
 /* <WHAT WE CAN DO?> */
