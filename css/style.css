@@ -1,18 +1,20 @@
 @charset "UTF-8";
 
-
-
 .body {
   font-family: "Lato";
   color: #333;
   width: 100%;
 }
 
-.is-raleway,h1,h2{
+img {
+  vertical-align: bottom;
+}
+
+.is-raleway {
   font-family: "Raleway";
 }
 
-main{
+main {
   padding-top: 70px;
 }
 
@@ -26,10 +28,10 @@ a {
   text-align: center;
 }
 
-
-
 .title_header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #fff;
   padding: 15px 0;
@@ -52,7 +54,6 @@ a {
   padding: 14px 0 12px 0;
   background-color: #74cfae;
   transition: 0.3s all;
-
   text-decoration: none;
 }
 
@@ -69,14 +70,11 @@ a {
   height: 36px;
   width: 46px;
   display: inline-block;
-  
   box-sizing: border-box;
-
   padding: 10px;
   border: 1px solid #ddd;
   color: #333;
   border-radius: 4px;
-
 }
 
 .humberger_buttom div {
@@ -102,7 +100,7 @@ a {
 
 /* <Bolt Theme> */
 
-.title_Bolt_Theme{
+.title_Bolt_Theme {
   width: 100%;
   background-color: #f2f2f2;
   padding: 160px 0 130px 0;
@@ -113,7 +111,6 @@ h1 {
   font-weight: 700;
   color: #74cfae;
 }
-
 
 .Sub_text_Bolt_Theme {
   margin-top: 20px;
@@ -148,11 +145,11 @@ h2 {
 
 /* <OUR LATEST WORK> */
 
+
 .title_our_latest_work {
   width: 100%;
   background-color: #f2f2f2;
   padding: 60px 0 70px 0;
-
   color: #333;
   margin: auto;
 }
@@ -166,16 +163,16 @@ h2 {
   transition: 0.3s all;
 }
 
+.items_OUR_LATEST_WORK li:nth-child(3n-2) {
+  margin-top: 80px;
+}
+
 .items_OUR_LATEST_WORK li:first-child {
   margin-top: 40px;
 }
 
-.items_OUR_LATEST_WORK li:nth-child(3n-3) {
-  margin-bottom: 80px;
-}
-
 .items_OUR_LATEST_WORK li:last-child {
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .items_OUR_LATEST_WORK li a:hover {
@@ -200,12 +197,11 @@ h2 {
 
 /* <OUR SKILLS> */
 
-.title_our_skills{
+.title_our_skills {
   width: 100%;
   background-color: #4e4e4e;
   padding: 70px 0 100px 0;
   color: #f2f2f2;
-
 }
 
 .items_our_skills {
@@ -213,7 +209,7 @@ h2 {
 }
 
 .items_our_skills li {
-  margin-top: 88px;
+  margin-top: 80px;
 }
 
 .items_our_skills li:first-child {
@@ -243,6 +239,7 @@ h2 {
   font-size: 40px;
   line-height:90px;
   transition: 0.3s all;
+  vertical-align: middle;
 }
 
 .sns_icon:hover {
@@ -260,12 +257,9 @@ h2 {
   font-size: 12px;
   color: #fff;
   text-align: right;
-  
 }
 
-
 @media screen and (min-width: 768px) {
-
 
 .header_buttom {
   display: inline-block;
@@ -279,7 +273,7 @@ h2 {
 
 /* <Bolt Theme> */
 
-.title_Bolt_Theme{
+.title_Bolt_Theme {
   padding: 250px 0 ;
 }
 
@@ -287,8 +281,6 @@ h1 {
   font-size: 90px;
   font-weight: 700;
 }
-
-/* <WHAT WE CAN DO?> */
 
 /* sns_icons */
 
@@ -305,15 +297,7 @@ h1 {
 }
 
 .sns_icon {
-  color: #74cfae;
   width: 185px;
-  font-size: 40px;
-  line-height:90px;
-  transition: 0.3s all;
-}
-
-.sns_icon:hover {
-  background-color: #fff;
 }
 
 /* footer */
@@ -331,13 +315,11 @@ h1 {
 
 }
 
-
 @media screen and (min-width: 1200px) {
 
 .inner {
   width: 1100px;
 }
-
 
 /* <WHAT WE CAN DO?> */
 
@@ -359,22 +341,12 @@ h1 {
   width: 60%;
 }
 
-
 .Sub_text_WHAT_WE_CAN {
   font-size: 20px;
   margin-top: 35px;
 }
 
 /* <OUR LATEST WORK> */
-
-.title_our_latest_work {
-  width: 100%;
-  background-color: #f2f2f2;
-  padding: 60px 0 70px 0;
-
-  color: #333;
-  margin: auto;
-}
 
 .items_OUR_LATEST_WORK {
   margin-top: 40px;
@@ -396,8 +368,9 @@ h1 {
 .items_OUR_LATEST_WORK li:first-child {
   margin-top: 0;
 }
-.items_OUR_LATEST_WORK li:nth-child(3n-3) {
-  margin-bottom: 0;
+
+.items_OUR_LATEST_WORK li:last-child {
+  margin-top: 80px;
 }
 
 /* 打消しおわり */
@@ -412,36 +385,19 @@ h1 {
 
 .Sub_contents {
   display: flex;
-  justify-content: center;
-  vertical-align: top;
   margin-top: 90px;
 }
 
 .Subtext_OUR_LATEST_WORK {
-  color: #333;
   width: 48%;
 }
 
 .Email_buttom {
-  height: 10px;
-  padding: 14px 20px ;
   margin-left: 90px;
   margin-top: 0;
 }
 
 /* <OUR SKILLS> */
-
-.title_our_skills{
-  width: 100%;
-  background-color: #4e4e4e;
-  padding: 70px 0 100px 0;
-  color: #f2f2f2;
-
-}
-
-.items_our_skills {
-  margin-top: 70px ;
-}
 
 .items_our_skills li {
   display: inline-block;
@@ -453,12 +409,6 @@ h1 {
 
 .items_our_skills li:first-child {
   margin-left: 0;
-}
-
-.items_our_skills p {
-  color: #f2f2f2;
-  font-size: 16px;
-  margin-top: 10px;
 }
 
 }
