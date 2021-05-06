@@ -12,15 +12,21 @@
 ​
 ## HTML
 1. 11行目でフォントを読み込んでいますが、あらかじめ読み込んでいるので必要ないです！
+-HTMLの11行目を削除しました。
 ​
 ​
 ## CSS
 1. メディアクエリあたりからインデントが崩れてます！
-​
+-CSSを全体的に見直して、Tabキーにてスペースを取るように致しました。
 ​
 ## our latest work
 1. `.items_OUR_LATEST_WORK` の子要素の1つ目の`li`にmargin-topがついてますが、
    これは打ち消すべきです！
    タイトルとの隙間を取るなら`.items_OUR_LATEST_WORK`のmargin-topにするべきですね！
-​
+-​`.items_OUR_LATEST_WORK`につけるべき要素を、子要素のliにつけていたといった内容であることを理解しました。
+そのため、`.items_OUR_LATEST_WORK`にmargin-top: 40px;をつけました。
+
+
 2. 7枚目の画像を追加するとレイアウトが崩れちゃいます！
+-TAB、SPで確認しました！
+`.items_OUR_LATEST_WORK`のnth-childを(3n+4)に変更して、7枚目の画像が反映されるように修正致しました。
